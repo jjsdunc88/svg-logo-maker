@@ -1,4 +1,5 @@
 const inquirer = require("inquirer");
+const fs = require("fs")
 const { Circle, Triangle, Square } = require("./lib/shapes");
 
 
@@ -47,6 +48,12 @@ function init() {
             shape.setTextColor(results.textColor)
             shape.setShapeColor(results.shapeColor)
             console.log(shape);
+          
+
+            fs.writeFile("logo.svg", `hello` ,(err)=>
+            err ? console.error(err) : console.log("Success!"))
+            
+
         })
 }
 
