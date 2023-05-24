@@ -48,16 +48,16 @@ function init() {
             shape.setText(results.text)
             shape.setTextColor(results.textColor)
             shape.setShapeColor(results.shapeColor)
-            console.log(shape);
+
 
             svgWrap = `<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg"> 
             ${shape.render()}
-            <text x="127" y="110" font-size="1.5em" fill="${shape.textColor}">${shape.text}</text>
+            <text x="127" y="115" font-size="1.5em" fill="${shape.textColor}">${shape.text}</text>
             </svg>`
 
 
             fs.writeFile("logo.svg", svgWrap, (err) =>
-                err ? console.error(err) : console.log("Success!"))
+                err ? console.error(err) : console.log("Generated logo.svg"))
 
 
         })
