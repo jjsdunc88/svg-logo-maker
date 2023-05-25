@@ -38,7 +38,9 @@
   ## Usage
   Enter "node index.js" and follow the prompts to create a custom SVG logo.
 
-  https://github.com/jjsdunc88/svg-logo-maker/assets/125617546/1287a2f3-c61d-40c5-9dd1-14055680296c
+  https://github.com/jjsdunc88/svg-logo-maker/assets/125617546/656e62be-2962-40a9-92aa-8b29f09d0124
+
+
 
   [Please click here if video does not display](https://drive.google.com/file/d/11cbO5Fw70SLmX6pf5_9SLrW9AgEkUL2L/view?usp=sharing)
 
